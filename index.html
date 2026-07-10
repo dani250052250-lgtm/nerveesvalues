@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Nervees Values</title>
+
+
+<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+
+<h1>
+🌙 Nervees Values
+</h1>
+
+
+
+<div class="theme-box">
+
+
+<button onclick="toggleTheme()">
+
+🌗 Theme
+
+</button>
+
+
+</div>
+
+
+</header>
+
+
+
+
+
+<section class="search-area">
+
+
+<input
+
+id="search"
+
+placeholder="🔍 Search pets, vehicles, pet wear..."
+
+oninput="searchItems()"
+
+
+>
+
+
+
+<div id="search-results">
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<section class="categories">
+
+
+<h2>
+Categories
+</h2>
+
+
+
+<button onclick="loadCategory('pets')">
+🐾 Pets
+</button>
+
+
+
+<button onclick="loadCategory('vehicles')">
+🚗 Vehicles
+</button>
+
+
+
+<button onclick="loadCategory('pet_wear')">
+👒 Pet Wear
+</button>
+
+
+
+<button onclick="loadCategory('toys')">
+🧸 Toys
+</button>
+
+
+
+<button onclick="loadCategory('eggs')">
+🥚 Eggs
+</button>
+
+
+
+<button onclick="loadCategory('gifts')">
+🎁 Gifts
+</button>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<section>
+
+
+<h2>
+Items
+</h2>
+
+
+
+<div id="items">
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<div id="item-page">
+
+</div>
+
+
+
+
+
+
+
+
+<footer>
+
+
+<p>
+
+🌙 Nervees Values
+
+</p>
+
+
+</footer>
+
+
+
+
+
+
+<script src="js/theme.js"></script>
+
+<script src="js/app.js"></script>
+
+<script src="js/search.js"></script>
+
+<script src="js/item-page.js"></script>
+
+
+</body>
+
+</html>
