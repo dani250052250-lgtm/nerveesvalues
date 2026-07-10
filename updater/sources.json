@@ -1,0 +1,35 @@
+{
+    "categories": {
+
+        "pets": {
+            "source": "",
+            "image_folder": "../images/pets"
+        },
+
+        "vehicles": {
+            "source": "",
+            "image_folder": "../images/vehicles"
+        },
+
+        "pet_wear": {
+            "source": "",
+            "image_folder": "../images/pet_wear"
+        },
+
+        "toys": {
+            "source": "",
+            "image_folder": "../images/toys"
+        },
+
+        "eggs": {
+            "source": "",
+            "image_folder": "../images/eggs"
+        },
+
+        "gifts": {
+            "source": "",
+            "image_folder": "../images/gifts"
+        }
+
+    }
+}
