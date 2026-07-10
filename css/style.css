@@ -450,3 +450,14 @@ width:45%;
 
 
 }
+#priceChart {
+
+    margin-top:30px;
+
+    background:#151522;
+
+    border-radius:20px;
+
+    padding:20px;
+
+}
