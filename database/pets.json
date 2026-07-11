@@ -1,0 +1,22 @@
+[
+  {
+    "id": "frost_dragon",
+    "name": "Frost Dragon",
+    "category": "pets",
+    "image": "frost_dragon.png",
+    "values": {
+      "N": 0,
+      "R": 0,
+      "F": 0,
+      "FR": 240,
+      "NR": 0,
+      "NF": 0,
+      "NFR": 1100,
+      "M": 0,
+      "MR": 0,
+      "MF": 0,
+      "MFR": 4500
+    },
+    "demand": 5
+  }
+]
