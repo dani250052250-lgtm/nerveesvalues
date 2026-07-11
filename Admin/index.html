@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Nervees Admin</title>
+
+
+<link rel="stylesheet" href="admin.css">
+
+
+</head>
+
+
+<body>
+
+
+<header>
+
+
+<h1>
+🔐 Nervees Admin
+</h1>
+
+
+</header>
+
+
+
+
+
+<section>
+
+
+<h2>
+Categories
+</h2>
+
+
+
+<button onclick="loadAdmin('pets')">
+🐾 Pets
+</button>
+
+
+<button onclick="loadAdmin('vehicles')">
+🚗 Vehicles
+</button>
+
+
+<button onclick="loadAdmin('pet_wear')">
+👒 Pet Wear
+</button>
+
+
+<button onclick="loadAdmin('toys')">
+🧸 Toys
+</button>
+
+
+<button onclick="loadAdmin('eggs')">
+🥚 Eggs
+</button>
+
+
+<button onclick="loadAdmin('gifts')">
+🎁 Gifts
+</button>
+
+
+
+</section>
+
+
+
+
+
+
+
+<input
+
+id="adminSearch"
+
+placeholder="🔍 Search..."
+
+oninput="searchAdmin()"
+
+
+>
+
+
+
+
+
+
+
+<div id="admin-items">
+
+
+</div>
+
+
+
+
+
+
+
+
+<script src="admin.js"></script>
+
+
+</body>
+
+
+</html>
