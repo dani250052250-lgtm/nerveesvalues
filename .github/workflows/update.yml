@@ -1,0 +1,84 @@
+name: 🌙 Nervees Auto Update
+
+
+on:
+
+  schedule:
+
+    - cron: "0 15 * * *"
+
+
+  workflow_dispatch:
+
+
+
+
+
+jobs:
+
+
+  update:
+
+
+    runs-on: ubuntu-latest
+
+
+
+    steps:
+
+
+
+    - name: Download project
+
+      uses: actions/checkout@v4
+
+
+
+
+
+
+    - name: Setup Python
+
+      uses: actions/setup-python@v5
+
+      with:
+
+        python-version: "3.x"
+
+
+
+
+
+
+    - name: Run generator
+
+      run: |
+
+        python updater/generator.py
+
+
+
+
+
+
+    - name: Save changes
+
+      run: |
+
+
+        git config user.name "Nervees Bot"
+
+
+        git config user.email "bot@nervees.com"
+
+
+
+        git add .
+
+
+
+        git commit -m "Auto update database" || exit 0
+
+
+
+        git push
